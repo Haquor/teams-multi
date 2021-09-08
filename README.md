@@ -4,6 +4,7 @@
 
 ### [Install Azure PS Module](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.4.0)
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
 `Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force`
 
 
@@ -17,4 +18,5 @@ Then copy the tenant ID for each one.
 
 ### Create separate Teams apps for each tenant with the following command(s):
 You can download this image for your custom app's icons [here](https://www.allabout365.com/wp-content/uploads/Teams.png).
+
 `node_modules/.bin/nativefier --name "Teams - Tenant Name" --icon Teams.png "https://teams.microsoft.com/_?tenantID=[TENANT_ID]"`
