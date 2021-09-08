@@ -10,6 +10,7 @@
 
 ### Connect to every tenant you want to set up a Teams session for and run:
 `Connect-AzAccount` (login with a tenant user)
+
 `Get-AzAccount`
 Then copy the tenant ID for each one.
 
